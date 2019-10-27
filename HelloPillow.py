@@ -2,7 +2,7 @@
 from PIL import Image, ImageFont, ImageDraw
 
 image = Image.new('RGBA', (1920, 1920),"black")
-message = "Hello World!"
+message = "Hello Pillow!"
 font = ImageFont.truetype("arial.ttf", 75)
 w,h = font.getsize(message)
 draw = ImageDraw.Draw(image)
